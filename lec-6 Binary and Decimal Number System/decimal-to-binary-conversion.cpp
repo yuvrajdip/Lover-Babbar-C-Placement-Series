@@ -15,6 +15,7 @@ int main()
     while (n != 0)
     {
         int bit = n & 1; // bit = n%2 ;
+
         answer = (bit * pow(10, i)) + answer;
 
         n = n >> 1; // n = n/2 ;
